@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'; // Import React Bootstrap components
+import { Navbar, Nav } from 'react-bootstrap'; // Import React Bootstrap components
 import ShoppingCartIcon from './ShopCartIcon'; // Import the SVG icon component
 
 function Header() {

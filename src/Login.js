@@ -54,10 +54,17 @@ function App() {
     }
   };
 
+<<<<<<< HEAD
   // const validateFileType = (file) => {
   //   const acceptedTypes = ['image/jpeg', 'image/png'];
   //   return file && acceptedTypes.includes(file.type);
   // };
+=======
+  //const validateFileType = (file) => {
+   // const acceptedTypes = ['image/jpeg', 'image/png'];
+   // return file && acceptedTypes.includes(file.type);
+ // };
+>>>>>>> 64f8890bc5788fbd220dd3d8f0d99b19bd8ade57
 
   const handlePhotoChange = (e) => {
     const selectedPhoto = e.target.files[0];
